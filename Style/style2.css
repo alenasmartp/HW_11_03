@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: 25px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+}
+.box1{
+    border: 2px solid red;
+    left: 0;
+    top: 0;
+}
+.box2{
+    border: 2px solid blue;
+    left: 25px;
+    top: 25px;
+}
+.box3{
+border: 2px solid green;
+left: 50px;
+top: 50px;
+}

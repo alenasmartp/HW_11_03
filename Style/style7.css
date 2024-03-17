@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 5px;
+    margin-bottom: 52px;
+    width: 400px;
+    border: 2px solid rgb(238, 130, 153);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: left;
+}
+nav ul{
+    height: 50px;
+    background-color: rgb(238, 130, 153);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    width: 100%;
+}
+.H1{
+margin: 20px;
+font-size: 23px;
+color: rgb(238, 130, 153);
+}
+p{
+  color: rgb(238, 130, 153);
+  font-size: 15px;
+  margin: 10px;  
+}
